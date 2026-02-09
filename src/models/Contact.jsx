@@ -34,7 +34,7 @@ export default function Contact() {
             <div>
               <h4 className="font-semibold mb-1">Facebook</h4>
               <a
-                href="https://www.facebook.com/yourfacebookpage"
+                href="https://www.facebook.com/share/17vo7yyVgA/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-blue-600 transition"
@@ -49,7 +49,7 @@ export default function Contact() {
             <FaWhatsapp className="text-2xl text-green-600" />
             <div>
               <h4 className="font-semibold mb-1">WhatsApp</h4>
-              <p className="text-gray-700">+44 1234 567890</p>
+              <p className="text-gray-700">+447448576324</p>
             </div>
           </div>
 
@@ -58,7 +58,7 @@ export default function Contact() {
             <FaEnvelope className="text-2xl text-red-500" />
             <div>
               <h4 className="font-semibold mb-1">Email</h4>
-              <p className="text-gray-700">artist@example.com</p>
+              <p className="text-gray-700">rifarafia2016@gmail.com</p>
             </div>
           </div>
 
@@ -67,7 +67,7 @@ export default function Contact() {
             <FaPhone className="text-2xl text-gray-800" />
             <div>
               <h4 className="font-semibold mb-1">Phone</h4>
-              <p className="text-gray-700">+44 1234 567890</p>
+              <p className="text-gray-700">+447448576324</p>
             </div>
           </div>
 

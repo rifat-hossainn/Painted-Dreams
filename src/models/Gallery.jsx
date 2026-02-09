@@ -8,6 +8,8 @@ import art4 from "../assets/art/Golden Snow.jpeg";
 import art6 from "../assets/art/Red Charm.jpeg";
 import art7 from "../assets/art/Open Horizon.jpeg";
 import art8 from "../assets/art/Night Glow.jpeg";
+import art9 from "../assets/art/Pure Love.jpeg";
+import art10 from "../assets/art/Tasty Combo.jpeg";
 const artworks = [
   {
     id: 8,
@@ -80,6 +82,25 @@ const artworks = [
     medium: "Acrylic on Canvas",
     year: "2025",
     image: art7,
+  },
+   {
+    id: 9,
+    title: "Pure Love",
+    description:
+      " A couple by the sea with roses and a flowing white gown, sharing a calm moment together",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: art9,
+  },
+
+  {
+    id: 10,
+    title: "Tasty Combo",
+    description:
+      "  A juicy burger served with crispy French fries and a chilled cold coffee.",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: art10,
   },
 ];
 
