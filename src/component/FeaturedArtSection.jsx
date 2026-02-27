@@ -1,40 +1,79 @@
 // FeaturedArtSection.jsx
 import React from "react";
 import { Link } from "react-router-dom";
-import art3 from "../assets/art/Blue Embrace.jpeg"
+import art3 from "../assets/art/Blue Embrace.jpeg";
 import art1 from "../assets/art/Autumn Whisper.jpeg";
 import art2 from "../assets/art/Rainy Comfort.jpeg";
-
-
-// Sample featured artworks data here 
+import art18 from "../assets/art/Golden Sunset.jpeg";
+import art17 from "../assets/art/Hidden Beauty.jpeg";
+import art20 from "../assets/art/Golden Forest.jpeg";
+import art13 from "../assets/art/Sweet Moment.jpeg";
+// Sample featured artworks data here
 const artworks = [
-   {
-      id: 1,
-      title: "Rainy Comfort",
-      description:
-        "Raindrops fall softly as a warm cup of tea brings calm and coziness.",
-      medium: "Acrylic on Canvas",
-      year: "2025",
-      image: art2,
-    },
-    {
-      id: 2,
-      title: "Autumn Whisper",
-      description:
-        "Soft golden leaves fall in cool air, showing the calm and beauty of autumn",
-      medium: "Acrylic on Canvas",
-      year: "2025",
-      image: art1,
-    },
-    {
-      id: 3,
-      title: "Blue Embrace",
-      description:
-        "A couple floats together under deep blue water, sharing a quiet and peaceful moment.",
-      medium: "Acrylic on Canvas",
-      year: "2025",
-      image: art3,
-    },
+  {
+    id: 1,
+    title: "Rainy Comfort",
+    description:
+      "Raindrops fall softly as a warm cup of tea brings calm and coziness.",
+    medium: "Acrylic on Canvas",
+    year: "2025",
+    image: art2,
+  },
+  {
+    id: 2,
+    title: "Autumn Whisper",
+    description:
+      "Soft golden leaves fall in cool air, showing the calm and beauty of autumn",
+    medium: "Acrylic on Canvas",
+    year: "2025",
+    image: art1,
+  },
+  {
+    id: 3,
+    title: "Blue Embrace",
+    description:
+      "A couple floats together under deep blue water, sharing a quiet and peaceful moment.",
+    medium: "Acrylic on Canvas",
+    year: "2025",
+    image: art3,
+  },
+  {
+    id: 13,
+    title: "Sweet Moment",
+    description:
+      "  A gentle painting of a girl sharing a loving kiss with her boyfriend.",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: art13,
+  },
+
+  {
+    id: 17,
+    title: "Hidden Beauty",
+    description:
+      "A beautiful woman looks softly through her red veil inside a round grey frame",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: art17,
+  },
+
+  {
+    id: 18,
+    title: "Golden Sunset",
+    description:
+      "A couple sits on the beach watching the bright sun set over the blue ocean.",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: art18,
+  },
+  {
+    id: 20,
+    title: "Silent Strength",
+    description: "Bright orange and yellow leaves cover the trees",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: art20,
+  },
 ];
 
 export default function FeaturedArtSection() {
@@ -54,24 +93,20 @@ export default function FeaturedArtSection() {
                 key={index}
                 className={`flex flex-col ${
                   isEven ? "md:flex-row-reverse" : "md:flex-row"
-                } items-center gap-12`}
-              >
+                } items-center gap-12`}>
                 {/* Text */}
                 <div className="md:w-1/2 text-center md:text-left">
                   <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
                     {art.title}
                   </h3>
-                  <p className="text-gray-700 text-lg">
-                    {art.description}
-                  </p>
+                  <p className="text-gray-700 text-lg">{art.description}</p>
                 </div>
 
                 {/* Image as Button */}
                 <div className="md:w-1/2 w-full">
                   <Link
                     to="/gallery"
-                    className="group block relative overflow-hidden rounded-2xl shadow-xl"
-                  >
+                    className="group block relative overflow-hidden rounded-2xl shadow-xl">
                     <img
                       src={art.image}
                       alt={art.title}

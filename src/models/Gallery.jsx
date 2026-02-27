@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import art3 from "../assets/art/Blue Embrace.jpeg"
+import art3 from "../assets/art/Blue Embrace.jpeg";
 import art1 from "../assets/art/Autumn Whisper.jpeg";
 import art2 from "../assets/art/Rainy Comfort.jpeg";
 import art5 from "../assets/art/Bright Wings.jpeg";
@@ -10,6 +10,16 @@ import art7 from "../assets/art/Open Horizon.jpeg";
 import art8 from "../assets/art/Night Glow.jpeg";
 import art9 from "../assets/art/Pure Love.jpeg";
 import art10 from "../assets/art/Tasty Combo.jpeg";
+import art11 from "../assets/art/Burning Hope.jpeg";
+import art12 from "../assets/art/Warm Shelter.jpeg";
+import art13 from "../assets/art/Sweet Moment.jpeg";
+import art14 from "../assets/art/Eternal Flow.jpeg";
+import art15 from "../assets/art/Silent Strength.jpeg";
+import art20 from "../assets/art/Golden Forest.jpeg";
+import art16 from "../assets/art/Bridal Grace.jpeg";
+import art17 from "../assets/art/Hidden Beauty.jpeg";
+import art18 from "../assets/art/Golden Sunset.jpeg";
+import art19 from "../assets/art/Golden Bloom.jpeg";
 const artworks = [
   {
     id: 8,
@@ -101,6 +111,97 @@ const artworks = [
     medium: "Acrylic on Canvas",
     year: "2026",
     image: art10,
+  },
+  {
+    id: 11,
+    title: "Burning Hope",
+    description:
+      "Bright flames rising with power, showing strength, courage, and hope even in hard times.",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: art11,
+  },
+  {
+    id: 12,
+    title: "Warm Shelter",
+    description:
+      " A small cabin offers comfort beside a quiet lake and fire.",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: art12,
+  },
+  {
+    id: 13,
+    title: "Sweet Moment",
+    description:
+      "  A gentle painting of a girl sharing a loving kiss with her boyfriend.",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: art13,
+  },
+  {
+    id: 14,
+    title: "Eternal Flow",
+    description:
+      "The waves remind us that life moves on, no matter what",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: art14,
+  },
+  {
+    id: 15,
+    title: "Silent Strength",
+    description:
+      "A woman who rises, unchanged by the world around her",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: art15,
+  },
+   {
+    id: 16,
+    title: "Bridal Grace",
+    description:
+      "A shy bride hides, showing her beautiful eyes and traditional jewelry",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: art16,
+  },
+   {
+    id: 17,
+    title: "Hidden Beauty",
+    description:
+      "A beautiful woman looks softly through her red veil inside a round grey frame",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: art17,
+  },
+   {
+    id: 18,
+    title: "Golden Sunset",
+    description:
+      "A couple sits on the beach watching the bright sun set over the blue ocean.",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: art18,
+  },
+   {
+    id: 19,
+    title: "Golden Bloom",
+    description:
+      "Bright colorful flowers shine in front of a peaceful sunset lake and mountains.",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: art19,
+  },
+   
+   {
+    id: 20,
+    title: "Silent Strength",
+    description:
+      "Bright orange and yellow leaves cover the trees",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: art20,
   },
 ];
 
