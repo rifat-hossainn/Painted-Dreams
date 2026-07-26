@@ -8,8 +8,43 @@ import art18 from "../assets/art/Golden Sunset.jpeg";
 import art17 from "../assets/art/Hidden Beauty.jpeg";
 import art20 from "../assets/art/Golden Forest.jpeg";
 import art13 from "../assets/art/Sweet Moment.jpeg";
+
+import SkyDreams from "../assets/art/Sky Dreams.jpeg";
+import SilentSorrow from "../assets/art/Silent Sorrow.jpeg";
+import GrandMosque from "../assets/art/Grand Mosque.jpeg";
 // Sample featured artworks data here
 const artworks = [
+
+{
+    id: 26,
+    title: "Sky Dreams",
+    description:
+      "Colorful balloons drift above a vibrant city, filling the sky with joy, hope, and endless possibilities.",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: SkyDreams,
+  },
+
+   {
+    id: 25,
+    title: "Silent Sorrow",
+    description:
+      "A girl stands drenched on a dark road, conveying a quiet, melancholic mood",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: SilentSorrow,
+  },
+
+   {
+      id: 22,
+      title: "Grand Mosque",
+      description:
+        "A beautiful mosque showcasing elegant architecture and a peaceful atmosphere.",
+      medium: "Acrylic on Canvas",
+      year: "2026",
+      image: GrandMosque,
+    },
+
   {
     id: 1,
     title: "Rainy Comfort",

@@ -20,7 +20,78 @@ import art16 from "../assets/art/Bridal Grace.jpeg";
 import art17 from "../assets/art/Hidden Beauty.jpeg";
 import art18 from "../assets/art/Golden Sunset.jpeg";
 import art19 from "../assets/art/Golden Bloom.jpeg";
+
+
+import SkyDreams from "../assets/art/Sky Dreams.jpeg";
+import SilentSorrow from "../assets/art/Silent Sorrow.jpeg";
+import RiversideSerenity from "../assets/art/Riverside Serenity.jpeg";
+import FreedomGirl from "../assets/art/Freedom Girl.jpeg";
+import GrandMosque from "../assets/art/Grand Mosque.jpeg";
+import ColorfulParrot from "../assets/art/Colorful Parrot.jpeg";
+
+ 
 const artworks = [
+
+ {
+    id: 26,
+    title: "Sky Dreams",
+    description:
+      "Colorful balloons drift above a vibrant city, filling the sky with joy, hope, and endless possibilities.",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: SkyDreams,
+  },
+
+   {
+    id: 25,
+    title: "Silent Sorrow",
+    description:
+      "A girl stands drenched on a dark road, conveying a quiet, melancholic mood",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: SilentSorrow,
+  },
+
+   {
+    id: 24,
+    title: "Riverside Serenity",
+    description:
+      "A girl sits by the riverside, peacefully enjoying the beauty of nature.",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: RiversideSerenity,
+  },
+
+   {
+    id: 23,
+    title: "Freedom Girl",
+    description:
+      "A colorful portrait of a girl expressing joy, confidence, and the spirit of freedom.",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: FreedomGirl,
+  },
+
+   {
+    id: 22,
+    title: "Grand Mosque",
+    description:
+      "A beautiful mosque showcasing elegant architecture and a peaceful atmosphere.",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: GrandMosque,
+  },
+
+   {
+    id: 21,
+    title: "Colorful Parrot",
+    description:
+      "A vibrant parrot displaying its brilliant feathers in a striking pose.",
+    medium: "Acrylic on Canvas",
+    year: "2026",
+    image: ColorfulParrot,
+  },
+
   {
     id: 8,
     title: "Night Glow",
